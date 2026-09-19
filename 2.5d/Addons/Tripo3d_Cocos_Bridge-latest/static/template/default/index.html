@@ -1,0 +1,43 @@
+<section class="app">
+  <header class="hero">
+    <img class="hero-logo" src="__TRIPO_LOGO_SRC__" alt="Tripo" />
+  </header>
+
+  <section class="card actions">
+    <div class="button-row">
+      <ui-button id="toggle-server">__TOGGLE_SERVER_LABEL__</ui-button>
+    </div>
+  </section>
+
+  <section class="card stats">
+    <div class="row">
+      <span class="label">__STATUS_LABEL__</span>
+      <span id="status" class="value">__STOPPED_STATUS__</span>
+    </div>
+    <div class="row">
+      <span class="label">__PORT_LABEL__</span>
+      <span id="port" class="value">60660</span>
+    </div>
+    <div class="row">
+      <span class="label">__CURRENT_FILE_LABEL__</span>
+      <span id="current-file" class="value mono">-</span>
+    </div>
+    <div class="row stacked">
+      <div class="progress-header">
+        <span class="label">__PROGRESS_LABEL__</span>
+        <span id="progress-value" class="value">0%</span>
+      </div>
+      <progress id="progress" max="100" value="0"></progress>
+    </div>
+  </section>
+
+  <section class="card logs-card">
+    <div class="logs-header">
+      <div class="section-title">__LOGS_TITLE__</div>
+      <div class="logs-actions">
+        <ui-button id="clear-logs">__CLEAR_LOGS_LABEL__</ui-button>
+      </div>
+    </div>
+    <pre id="logs" class="logs"></pre>
+  </section>
+</section>

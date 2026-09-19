@@ -7,6 +7,7 @@
 - NPCs to meet, speak with, and encounter throughout the adventure.
 - Puzzles as part of exploration and quest progression.
 - Turn-based combat.
+- Visual direction based on the user's supplied industrial steampunk references, rendered smoothly without pixelation; see [ART_DIRECTION.md](ART_DIRECTION.md).
 
 The sections below are an initial design proposal, open to revision. They describe intended gameplay, not implemented features.
 
@@ -14,7 +15,7 @@ The sections below are an initial design proposal, open to revision. They descri
 
 An inhabited industrial world of riveted iron, copper pipes, brass machinery, amber gas lamps, and blue-green electrical glows. Steam technology shapes everyday life, transport, work, and local conflicts. Workshops, canal streets, boiler houses, and clock towers provide varied places to explore.
 
-Keep the gritty mechanical visual direction established in CODEX.md while giving the world warmth through its inhabitants, homes, and gathering places.
+Follow the stylized fantasy steampunk direction established in CODEX.md and ART_DIRECTION.md, with bold shapes and painterly surfaces. Give the world warmth through its inhabitants, homes, and gathering places.
 
 ## Gameplay loop
 
